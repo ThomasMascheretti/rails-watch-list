@@ -1,1 +1,5 @@
-<div><%= %></div>
+<h1>Bookmark</h1>
+
+<div><%= @list.bookmarks #iterer %></div>
+
+<%= link_to 'Add a bookmark', new_list_bookmark_path(@list)%>
